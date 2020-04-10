@@ -52,7 +52,8 @@ def monopoly_with_fourth_tier
     bash_hash = {
     :railroads => {
       :pieces => 4,
-      :rent_in_dollars => {
+      :rent_in_dollars => 
+      {
            :one_piece_owned => 25,
            :two_pieces_owned => 50,
            :three_pieces_owned => 100,
@@ -60,17 +61,17 @@ def monopoly_with_fourth_tier
       },
       :names => {
         :reading_railroad => {
-          :mortage_value => "100"
+          "mortage_value" => "$100"
         },
         :pennsylvania_railroad => {
-          :mortage_value => "200"
+          "mortage_value" => "$200"
         },
         :b_and_o_railroad => {
-          :mortage_value => "400"
+          "mortage_value" => "$400"
           
         },
         :shortline_railroad => {
-          :mortage_value => "800"
+          "mortage_value" => "$800"
           
         }
       }
