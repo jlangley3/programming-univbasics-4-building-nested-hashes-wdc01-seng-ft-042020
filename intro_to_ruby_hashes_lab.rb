@@ -61,7 +61,7 @@ def monopoly_with_fourth_tier
       :names => {
           :reading_railroad => {:mortage_value => 100},
           :pennsylvania_railroad => {:mortage_value =>},
-           :b_and_o_railroad => {},
+           :b_and_o_railroad => {:mortage_value =>},
            :shortline_railroad => {}
            
            # When you start writing the implementation for this method, copy the Hash
